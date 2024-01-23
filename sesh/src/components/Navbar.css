@@ -1,0 +1,60 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .navbar-links {
+    flex: 1; /* Allow links to take remaining space */
+    text-align: center; /* Center links horizontally */
+  }
+  
+  .navbar-links a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    text-align: center; /* Center actions horizontally */
+  }
+  
+  .signin-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  
+  .login-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  
